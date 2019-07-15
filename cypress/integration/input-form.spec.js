@@ -2,7 +2,7 @@ import { isContext } from 'vm';
 
 describe('Input form', () => {
   beforeEach(() => {
-    cy.visit('http://localhost:3030');
+    cy.seedAndVisit([]);
   });
 
   it('focuses input on load', () => {
